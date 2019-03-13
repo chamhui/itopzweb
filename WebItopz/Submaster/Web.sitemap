@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+    <siteMapNode url="Submaster/Submaster_Home.aspx" title="Home"  description="Home">
+      <siteMapNode url="Submaster/Submaster_Search.aspx" title="Search"  description="Search" />
+      <!--<siteMapNode url="Submaster/admin/Reload.aspx" title="Reload"  description="Reload" />-->
+      <!--<siteMapNode url="Submaster/admin/Submaster_NoDN.aspx" title="NoDN"  description="NoDN" />
+      <siteMapNode url="Submaster/admin/Submaster_Pending.aspx" title="Pending"  description="Pending" />
+      <siteMapNode url="Submaster/admin/Submaster_MTPending.aspx" title="Pending SMS OUT"  description="Pending SMS OUT" />
+      <siteMapNode url="Submaster/admin/Submaster_MTSuccess.aspx" title="Success MT"  description="Success MT" />
+      <siteMapNode url="Submaster/admin/Submaster_Redo.aspx" title="Redo"  description="Redo" />
+      <siteMapNode url="Submaster/admin/Submaster_TelcoFailReload.aspx" title="TelcoFailReload"  description="TelcoFailReload" />
+      <siteMapNode url="Submaster/admin/Submaster_TelcoMessages.aspx" title="TelcoMessages"  description="TelcoMessages" />
+      <siteMapNode url="Submaster/admin/Submaster_Refund.aspx" title="Do Refund"  description="Do Refund" />-->
+      <siteMapNode title="Members Infomation"  description="Members Infomation"  >
+      <siteMapNode url="Submaster/admin/Submaster_RegisterAgent.aspx" title="RegisterAgent"  description="RegisterAgent" />
+      <siteMapNode url="Submaster/admin/Submaster_AgentInfo.aspx" title="AgentInfo"  description="AgentInfo" />
+      <siteMapNode url="Submaster/admin/Submaster_AgentMSISDN.aspx" title="AgentMSISDN"  description="AgentMSISDN" />
+      <siteMapNode url="Submaster/admin/Submaster_AgentTopup.aspx" title="AgentTopup"  description="AgentTopup" />
+				<siteMapNode url="Submaster/admin/Submaster_AgentTopupCard.aspx" title="AgentTopupCard"  description="AgentTopupCard" />
+      <siteMapNode url="Submaster/admin/Submaster_AgentBalance.aspx" title="AgentBalance"  description="AgentBalance" />
+      </siteMapNode>
+      <siteMapNode title="Reports"  description="Reports"  >
+        
+        <siteMapNode url="Submaster/admin/Submaster_DealerCommission.aspx" title="Dealer Commission"  description="Dealer Commission" />
+        <siteMapNode url="Submaster/admin/Submaster_ReportTopAgent.aspx" title="ReportTopAgent"  description="ReportTopAgent" />      
+     <!-- <siteMapNode url="Submaster/admin/Submaster_ReportSales.aspx" title="ReportSales"  description="ReportSales" />
+      <siteMapNode url="Submaster/admin/Submaster_ReportSalesMonthly.aspx" title="ReportSalesMonthly"  description="ReportSalesMonthly" />
+      <siteMapNode url="Submaster/admin/Submaster_ReportSalesByDeno.aspx" title="ReportSalesByDeno"  description="ReportSalesByDeno" />
+      <siteMapNode url="Submaster/admin/Submaster_ReportSalesByTelco.aspx" title="ReportSalesByTelco"  description="ReportSalesByTelco" />
+      <siteMapNode url="Submaster/admin/Submaster_ReportSalesByTelcoSIM.aspx" title="ReportSalesByTelcoSIM"  description="ReportSalesByTelcoSIM" />-->
+      <siteMapNode url="Submaster/admin/Submaster_ReportAgentTopup.aspx" title="ReportAgentTopup"  description="ReportAgentTopup" />
+      <siteMapNode url="Submaster/admin/Submaster_ReportAgentSales.aspx" title="ReportAgentSales"  description="ReportAgentSales" />
+      <siteMapNode url="Submaster/admin/Submaster_ReportDealerSales.aspx" title="ReportDealerSales"  description="ReportDealerSales" />
+      <siteMapNode url="Submaster/admin/Submaster_PrintReports.aspx" title="PrintReports"  description="PrintReports" />
+    </siteMapNode>
+      
+      <!--<siteMapNode title="System Setting"  description="System Setting"  >
+      <siteMapNode url="Submaster/admin/Submaster_Broadcast.aspx" title="Broadcast"  description="Broadcast" />
+      <siteMapNode url="Submaster/admin/Submaster_ProductInfo.aspx" title="ProductInfo"  description="ProductInfo" />
+      <siteMapNode url="Submaster/admin/Submaster_UploadReloadPin.aspx" title="UploadReloadPin"  description="UploadReloadPin" />      
+      <siteMapNode url="Submaster/admin/Submaster_TelcoSettings.aspx" title="TelcoSettings"  description="TelcoSettings" />
+      <siteMapNode url="Submaster/admin/Submaster_SimCard.aspx" title="SimCard"  description="SimCard" />      
+      <siteMapNode url="Submaster/admin/Submaster_ProcessorSetting.aspx" title="ProcessorSetting"  description="ProcessorSetting" />
+      <siteMapNode url="Submaster/admin/Submaster_PostRobinSettings.aspx" title="MultiProcessor"  description="MultiProcessor" />
+      </siteMapNode>-->
+		
+      <siteMapNode url="Submaster/Submaster_Logout.aspx" title="Logout"  description="Logout" />
+		
+    </siteMapNode>
+  </siteMap>
+ 

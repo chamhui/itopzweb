@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+    <siteMapNode url="Master/Home.aspx" title="Home"  description="Home">
+		
+      <siteMapNode url="Master/Admin/UpkeepByPhone.aspx" title="Upkeep"  description="Upkeep" />
+      <siteMapNode url="Master/Admin/UpkeepTx2.aspx" title="UpkeepTx"  description="Upkeeptx" />
+	 <siteMapNode url="Master/Admin/UpkeepTxAdd.aspx" title="Add UpkeepTx"  description="Add UpkeepTx" />
+
+      <siteMapNode url="Master/Search.aspx" title="Search"  description="Search" />
+      <!--<siteMapNode url="Master/admin/Reload.aspx" title="Reload"  description="Reload" />-->
+      <siteMapNode url="Master/admin/NoDN.aspx" title="NoDN"  description="NoDN" />
+      <siteMapNode url="Master/admin/Pending.aspx" title="Pending"  description="Pending" />
+      <siteMapNode url="Master/admin/MTPending.aspx" title="Pending SMS OUT"  description="Pending SMS OUT" />
+      <siteMapNode url="Master/admin/MTSuccess.aspx" title="Success MT"  description="Success MT" />
+      <siteMapNode url="Master/admin/Redo.aspx" title="Redo"  description="Redo" />
+      <siteMapNode url="Master/admin/TelcoFailReload.aspx" title="TelcoFailReload"  description="TelcoFailReload" />
+      <siteMapNode url="Master/admin/TelcoMessages.aspx" title="TelcoMessages"  description="TelcoMessages" />
+      <siteMapNode url="Master/admin/Refund.aspx" title="Do Refund"  description="Do Refund" />
+      <siteMapNode title="Members Infomation"  description="Members Infomation"  >
+			<siteMapNode url="Master/admin/RegisterAgent.aspx" title="RegisterAgent"  description="RegisterAgent" />
+			<siteMapNode url="Master/admin/RegisterRetailer.aspx" title="RegisterRetailer"  description="RegisterRetailer" />
+			<siteMapNode url="Master/admin/RegisterSubmaster.aspx" title="RegisterSubMaster" description="RegisterSubMaster" />
+			<siteMapNode url="Master/admin/AgentInfo.aspx" title="AgentInfo"  description="AgentInfo" />
+			<siteMapNode url="Master/admin/AgentMSISDN.aspx" title="AgentMSISDN"  description="AgentMSISDN" />
+				<siteMapNode url="Master/admin/AgentTransfer.aspx" title="AgentTransfer"  description="AgentTransfer" />
+			<siteMapNode url="Master/admin/AgentTopup.aspx" title="AgentTopup"  description="AgentTopup" />
+				 <siteMapNode url="Master/admin/AgentTopupCard.aspx" title="AgentTopupCard"  description="AgentTopupCard" />
+			<siteMapNode url="Master/admin/AgentBalance.aspx" title="AgentBalance"  description="AgentBalance" />
+      </siteMapNode>
+      <siteMapNode title="Reports"  description="Reports"  >
+        
+        <siteMapNode url="Master/admin/DealerCommission.aspx" title="Dealer Commission"  description="Dealer Commission" />
+        <siteMapNode url="Master/admin/ReportTopAgent.aspx" title="ReportTopAgent"  description="ReportTopAgent" />      
+      <siteMapNode url="Master/admin/ReportSales.aspx" title="ReportSales"  description="ReportSales" />
+      <siteMapNode url="Master/admin/ReportSalesMonthly.aspx" title="ReportSalesMonthly"  description="ReportSalesMonthly" />
+      <siteMapNode url="Master/admin/ReportSalesByDeno.aspx" title="ReportSalesByDeno"  description="ReportSalesByDeno" />
+        <siteMapNode url="Master/admin/ReportSalesByDenoSummary.aspx" title="ReportSalesByDenoSummary"  description="ReportSalesByDenoSummary" />
+      <siteMapNode url="Master/admin/ReportSalesByTelco.aspx" title="ReportSalesByTelco"  description="ReportSalesByTelco" />
+      <siteMapNode url="Master/admin/ReportSalesByTelcoSIM.aspx" title="ReportSalesByTelcoSIM"  description="ReportSalesByTelcoSIM" />
+      <siteMapNode url="Master/admin/ReportAgentTopup.aspx" title="ReportAgentTopup"  description="ReportAgentTopup" />
+      <siteMapNode url="Master/admin/ReportAgentSales.aspx" title="ReportAgentSales"  description="ReportAgentSales" />
+			   <siteMapNode url="Master/admin/ReportAgentSalesSummary.aspx" title="ReportAgentSalesSummary"  description="ReportAgentSalesSummary" />
+      <siteMapNode url="Master/admin/ReportDealerSales.aspx" title="ReportDealerSales"  description="ReportDealerSales" />
+      <siteMapNode url="Master/admin/PrintReports.aspx" title="PrintReports"  description="PrintReports" />
+    </siteMapNode>
+      
+     <siteMapNode title="System Setting"  description="System Setting"  >
+      <siteMapNode url="Master/admin/Broadcast.aspx" title="Broadcast"  description="Broadcast" />
+      <siteMapNode url="Master/admin/ProductInfo.aspx" title="ProductInfo"  description="ProductInfo" />
+      <siteMapNode url="Master/admin/UploadReloadPin.aspx" title="UploadReloadPin"  description="UploadReloadPin" />      
+      <siteMapNode url="Master/admin/TelcoSettings.aspx" title="TelcoSettings"  description="TelcoSettings" />
+      <siteMapNode url="Master/admin/SimCard.aspx" title="SimCard"  description="SimCard" />      
+      <siteMapNode url="Master/admin/ProcessorSetting.aspx" title="ProcessorSetting"  description="ProcessorSetting" />
+      <siteMapNode url="Master/admin/PostRobinSettings.aspx" title="MultiProcessor"  description="MultiProcessor" />
+	  
+	  
+	  </siteMapNode>
+		
+	<!--	<siteMapNode url="Master/admin/AdminChangePassword.aspx" title="AdminChangePassword" description="Change Password" />-->
+      <siteMapNode url="Master/Logout.aspx" title="Logout"  description="Logout" />
+	
+    </siteMapNode>
+  </siteMap>
+ 

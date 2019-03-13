@@ -1,0 +1,590 @@
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\ApplicationInsights.config
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\roslyn\csc.exe
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\roslyn\vbc.exe
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\roslyn\VBCSCompiler.exe
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\WebItopz.dll.config
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\WebItopz.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\WebItopz.pdb
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\WebForms_Basic.xml
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Antlr3.Runtime.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\EntityFramework.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.AI.Web.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.ApplicationInsights.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.Owin.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Newtonsoft.Json.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Owin.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\System.Web.Optimization.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\System.Web.Providers.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\WebGrease.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.AI.Web.xml
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.ApplicationInsights.xml
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\System.Web.Optimization.xml
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Antlr3.Runtime.pdb
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Newtonsoft.Json.xml
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\EntityFramework.xml
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\System.Web.Providers.xml
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.Owin.xml
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.xml
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\obj\Debug\WebItopz.vbprojResolveAssemblyReference.cache
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\obj\Debug\WebItopz.Resources.resources
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\obj\Debug\WebItopz.vbproj.GenerateResource.Cache
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\obj\Debug\WebItopz.dll
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\obj\Debug\WebForms_Basic.xml
+C:\Users\LENOVO\Desktop\itopz\Website\ItopzWeb\WebItopz\obj\Debug\WebItopz.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\obj\Debug\WebItopz.Resources.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\obj\Debug\WebItopz.vbproj.GenerateResource.Cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\obj\Debug\WebForms_Basic.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\ApplicationInsights.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\roslyn\csc.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\roslyn\vbc.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\WebItopz.dll.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\WebItopz.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\WebItopz.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\WebForms_Basic.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Antlr3.Runtime.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\EntityFramework.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.AI.Web.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.ApplicationInsights.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.Owin.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Newtonsoft.Json.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Owin.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\System.Web.Optimization.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\System.Web.Providers.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\WebGrease.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.AI.Web.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.ApplicationInsights.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\System.Web.Optimization.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Antlr3.Runtime.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Newtonsoft.Json.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\EntityFramework.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\System.Web.Providers.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.Owin.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\obj\Debug\WebItopz.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\obj\Debug\WebItopz.pdb
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\obj\Debug\WebItopz.vbprojResolveAssemblyReference.cache
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\obj\Debug\WebItopz.Resources.resources
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\obj\Debug\WebItopz.vbproj.GenerateResource.Cache
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\obj\Debug\WebItopz.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\obj\Debug\WebForms_Basic.xml
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\obj\Debug\WebItopz.pdb
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\ApplicationInsights.config
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\roslyn\csc.exe
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\roslyn\vbc.exe
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\roslyn\VBCSCompiler.exe
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\WebItopz.dll.config
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\WebItopz.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\WebItopz.pdb
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\WebForms_Basic.xml
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Antlr3.Runtime.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\EntityFramework.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.AI.Web.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.ApplicationInsights.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.Owin.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Newtonsoft.Json.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Owin.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\System.Web.Optimization.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\System.Web.Providers.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\WebGrease.dll
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.AI.Web.xml
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.ApplicationInsights.xml
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\System.Web.Optimization.xml
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Antlr3.Runtime.pdb
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Newtonsoft.Json.xml
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\EntityFramework.xml
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\System.Web.Providers.xml
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.Owin.xml
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.xml
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\LENOVO\Desktop\itopz\20171030 Itopz\ItopzWeb\WebItopz\obj\Debug\WebItopz.vbproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Visual Studio 2015\Projects\ItopzWeb\WebItopz\obj\Debug\WebItopz.vbprojResolveAssemblyReference.cache
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\ApplicationInsights.config
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\csc.exe
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\vbc.exe
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\VBCSCompiler.exe
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\WebItopz.dll.config
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\WebItopz.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\WebItopz.pdb
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\WebForms_Basic.xml
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Antlr3.Runtime.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\EntityFramework.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.Web.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.ApplicationInsights.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Newtonsoft.Json.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Owin.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\System.Web.Optimization.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\System.Web.Providers.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\WebGrease.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.Web.xml
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.ApplicationInsights.xml
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\System.Web.Optimization.xml
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Antlr3.Runtime.pdb
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Newtonsoft.Json.xml
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\EntityFramework.xml
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\System.Web.Providers.xml
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.xml
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.xml
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.Resources.resources
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.vbproj.GenerateResource.Cache
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.vbproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.dll
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebForms_Basic.xml
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.pdb
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.vbprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.vbproj.CopyComplete
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\ApplicationInsights.config
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\csc.exe
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\vbc.exe
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\VBCSCompiler.exe
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\WebItopz.dll.config
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\WebItopz.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\WebItopz.pdb
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\WebForms_Basic.xml
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Antlr3.Runtime.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\EntityFramework.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\EntityFramework.SqlServer.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.Web.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Newtonsoft.Json.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Owin.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\System.Web.Optimization.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\System.Web.Providers.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\WebGrease.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.Web.xml
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\System.Web.Optimization.xml
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Antlr3.Runtime.pdb
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Newtonsoft.Json.xml
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\EntityFramework.xml
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\EntityFramework.SqlServer.xml
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\System.Web.Providers.xml
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.xml
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.xml
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.vbprojResolveAssemblyReference.cache
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.Resources.resources
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.vbproj.GenerateResource.cache
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.vbproj.CoreCompileInputs.cache
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.vbproj.CopyComplete
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.dll
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebForms_Basic.xml
+C:\Users\Syahrin Seth\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.pdb
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\ApplicationInsights.config
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\csc.exe
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\vbc.exe
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\VBCSCompiler.exe
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\WebItopz.dll.config
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\WebItopz.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\WebItopz.pdb
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\WebForms_Basic.xml
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Antlr3.Runtime.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\EntityFramework.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.Web.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.ApplicationInsights.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Newtonsoft.Json.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Owin.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\System.Web.Optimization.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\System.Web.Providers.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\WebGrease.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.Web.xml
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.ApplicationInsights.xml
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\System.Web.Optimization.xml
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Antlr3.Runtime.pdb
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Newtonsoft.Json.xml
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\EntityFramework.xml
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\System.Web.Providers.xml
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.xml
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.xml
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.vbprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.Resources.resources
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.vbproj.GenerateResource.cache
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.vbproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.vbproj.CopyComplete
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.dll
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebForms_Basic.xml
+C:\Users\LENOVO\Desktop\20181207\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.pdb
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\ApplicationInsights.config
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\csc.exe
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\vbc.exe
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\VBCSCompiler.exe
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\WebItopz.dll.config
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\WebItopz.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\WebItopz.pdb
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\WebForms_Basic.xml
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Antlr3.Runtime.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\EntityFramework.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.Web.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.ApplicationInsights.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Newtonsoft.Json.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Owin.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\System.Web.Optimization.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\System.Web.Providers.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\WebGrease.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.Web.xml
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.ApplicationInsights.xml
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\System.Web.Optimization.xml
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Antlr3.Runtime.pdb
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Newtonsoft.Json.xml
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\EntityFramework.xml
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\System.Web.Providers.xml
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.xml
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.xml
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.vbprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.Resources.resources
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.vbproj.GenerateResource.cache
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.vbproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.vbproj.CopyComplete
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.dll
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebForms_Basic.xml
+C:\Users\LENOVO\Desktop\20181212\itopzweblatest\ItopzWeb\ItopzWeb\WebItopz\obj\Debug\WebItopz.pdb

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+    <siteMapNode url="Home.aspx" title="Home"  description="Home">
+      <siteMapNode url="Agent/Agent_Search.aspx" title="Search"  description="Search" /> 
+      <siteMapNode url="Agent/Agent_Reload2.aspx" title="Reload-Singapore"  description="Reload-Singapore NEW" />
+      <siteMapNode url="Agent/Agent_ReloadPIN.aspx" title="Reload-IDD PIN"  description="Reload-IDD PIN" />
+      <siteMapNode url="Agent/Agent_ReloadIndia.aspx" title="Reload-India"  description="Reload-India" />
+      <siteMapNode url="Agent/Agent_ReloadBangadesh.aspx" title="Reload-Bangla"  description="Reload-Bangla" />
+      <siteMapNode url="Agent/Agent_Reloadindo.aspx" title="Reload-Indonesia"  description="Reload-Indonesia" />  
+      <siteMapNode url="Agent/Agent_AgentInfo.aspx" title="RetailerInfo"  description="RetailerInfo" />
+      <siteMapNode url="Agent/Agent_ReportAgentTopup.aspx" title="ReportRetailerTopup"  description="ReportRetailerTopup" />
+      <siteMapNode url="Agent/Agent_ReportAgentSales.aspx" title="ReportRetailerSales"  description="ReportRetailerSales" />
+      <siteMapNode url="Agent/Agent_ChangePassword.aspx" title="ChangePassword"  description="ChangePassword" /> 
+      <siteMapNode url="Agent/Retailer_Logout.aspx" title="Logout"  description="Logout" />
+    </siteMapNode>
+  </siteMap>
+ 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+    <siteMapNode url="Dealer/Home.aspx" title="Home"  description="Home">
+      <siteMapNode url="Dealer/Search.aspx" title="Search"  description="Search" />
+      <siteMapNode url="Dealer/AgentInfo.aspx" title="AgentList/EditAgent"  description="AgentInfo" />
+      <siteMapNode url="Dealer/RegisterAgent.aspx" title="RegisterAgent"  description="RegisterAgent" />
+      <siteMapNode url="Dealer/AgentBalance.aspx" title="AgentBalance"  description="AgentBalance" />
+      <siteMapNode url="Dealer/AgentTopup.aspx" title="AgentTopup"  description="AgentTopup" />
+			<siteMapNode url="Dealer/DealerTopupCard.aspx" title="AgentTopupCard"  description="AgentTopupCard" />
+      <siteMapNode url="Dealer/ReportAgentTopup.aspx" title="ReportAgentTopup"  description="ReportAgentTopup" />
+      <siteMapNode url="Dealer/ReportAgentSales.aspx" title="ReportAgentSales"  description="ReportAgentSales" />
+      <siteMapNode url="Dealer/ReportCommission.aspx" title="ReportCommission"  description="ReportCommission" />
+      <siteMapNode url="Dealer/PrintReports.aspx" title="PrintReports"  description="PrintReports" />
+      <siteMapNode url="Dealer/ChangePassword.aspx" title="ChangePassword"  description="ChangePassword" />
+      <siteMapNode url="Dealer/Logout.aspx" title="Logout"  description="Logout" />
+    </siteMapNode>
+  </siteMap>
+ 

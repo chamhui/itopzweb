@@ -1,0 +1,2103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WebItopz</RootNamespace>
+    <AssemblyName>WebItopz</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>WebForms_Basic.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>WebForms_Basic.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=2.0.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.2.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.2.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.2.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.2.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.bootstrap">
+      <HintPath>..\packages\AspNet.ScriptManager.bootstrap.3.0.0\lib\net45\AspNet.ScriptManager.bootstrap.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.1.10.2\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.MSAjax">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <Private>True</Private>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls">
+      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Providers">
+      <HintPath>..\packages\Microsoft.AspNet.Providers.Core.2.0.0\lib\net40\System.Web.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.1\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.1\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.1\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.1\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.Routing" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\AddPhoneNumber.aspx" />
+    <Content Include="Account\Confirm.aspx" />
+    <Content Include="Account\Forgot.aspx" />
+    <Content Include="Account\Lockout.aspx" />
+    <Content Include="Account\Manage.aspx" />
+    <Content Include="Account\ManageLogins.aspx" />
+    <Content Include="Account\ManagePassword.aspx" />
+    <Content Include="Account\OpenAuthProviders.ascx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Account\RegisterExternalLogin.aspx" />
+    <Content Include="Account\ResetPassword.aspx" />
+    <Content Include="Account\ResetPasswordConfirmation.aspx" />
+    <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
+    <Content Include="Account\VerifyPhoneNumber.aspx" />
+    <Content Include="Agent\Agent_AgentInfo.aspx" />
+    <Content Include="Agent\encryptpassword.aspx" />
+    <Content Include="Agent\Retailer_Logout.aspx" />
+    <Content Include="Agent\Retailer_Login.aspx" />
+    <Content Include="Agent\Agent_Reload3Data.aspx" />
+    <Content Include="Agent\Agent_Reload4Data.aspx" />
+    <Content Include="Agent\Agent_Reload_Receive.aspx" />
+    <Content Include="Agent\Agent_Reload4.aspx" />
+    <Content Include="Agent\Agent_Reload3.aspx" />
+    <Content Include="Agent\Agent_Reload2.aspx" />
+    <Content Include="Agent\Agent_Search.aspx" />
+    <Content Include="Agent\Agent_ChangePassword.aspx" />
+    <Content Include="Agent\Default.aspx" />
+    <Content Include="Agent\DNDetails.aspx" />
+    <Content Include="Agent\DNReceived.aspx" />
+    <Content Include="Agent\EditAgentRebate.aspx" />
+    <Content Include="Agent\EditDiscount.aspx" />
+    <Content Include="Agent\RetailerHome.aspx" />
+    <Content Include="Agent\Home.aspx" />
+    <Content Include="Agent\images\008.jpg" />
+    <Content Include="Agent\images\15381.jpg" />
+    <Content Include="Agent\images\1818.jpg" />
+    <Content Include="Agent\images\A11.jpg" />
+    <Content Include="Agent\images\a2.jpg" />
+    <Content Include="Agent\images\ACE1.jpg" />
+    <Content Include="Agent\images\alpha10.jpg" />
+    <Content Include="Agent\images\banner.JPG" />
+    <Content Include="Agent\images\bdload.jpg" />
+    <Content Include="Agent\images\bip1.jpg" />
+    <Content Include="Agent\images\Bollywood1.jpg" />
+    <Content Include="Agent\images\chatchat.gif" />
+    <Content Include="Agent\images\cs.jpg" />
+    <Content Include="Agent\images\easy.jpg" />
+    <Content Include="Agent\images\easy1.jpg" />
+    <Content Include="Agent\images\hello.jpg" />
+    <Content Include="Agent\images\Home1.jpg" />
+    <Content Include="Agent\images\idd3in1.gif" />
+    <Content Include="Agent\images\india.jpg" />
+    <Content Include="Agent\images\indo.jpg" />
+    <Content Include="Agent\images\indo\3.gif" />
+    <Content Include="Agent\images\indo\axis.jpg" />
+    <Content Include="Agent\images\indo\ceria.jpg" />
+    <Content Include="Agent\images\indo\esia.jpg" />
+    <Content Include="Agent\images\indo\flex.jpg" />
+    <Content Include="Agent\images\indo\fren.jpg" />
+    <Content Include="Agent\images\indo\hepi.gif" />
+    <Content Include="Agent\images\indo\Indosat.jpg" />
+    <Content Include="Agent\images\indo\smart.jpg" />
+    <Content Include="Agent\images\indo\starone.jpg" />
+    <Content Include="Agent\images\indo\telkomsel.jpg" />
+    <Content Include="Agent\images\indo\xl.jpg" />
+    <Content Include="Agent\images\lanka.jpg" />
+    <Content Include="Agent\images\loading.gif" />
+    <Content Include="Agent\images\logo.gif" />
+    <Content Include="Agent\images\Logo.jpg" />
+    <Content Include="Agent\images\logo1.gif" />
+    <Content Include="Agent\images\m17.jpg" />
+    <Content Include="Agent\images\m18.jpg" />
+    <Content Include="Agent\images\m1logo.jpg" />
+    <Content Include="Agent\images\m2.jpg" />
+    <Content Include="Agent\images\m30.jpg" />
+    <Content Include="Agent\images\m3in1.gif" />
+    <Content Include="Agent\images\m5.jpg" />
+    <Content Include="Agent\images\Magic1.jpg" />
+    <Content Include="Agent\images\Mandu1.jpg" />
+    <Content Include="Agent\images\Master-1.jpg" />
+    <Content Include="Agent\images\my.jpg" />
+    <Content Include="Agent\images\Pinoylogo.jpg" />
+    <Content Include="Agent\images\Real1.jpg" />
+    <Content Include="Agent\images\sh17.JPG" />
+    <Content Include="Agent\images\sh18.gif" />
+    <Content Include="Agent\images\sh28.gif" />
+    <Content Include="Agent\images\sh3in1.gif" />
+    <Content Include="Agent\images\sh8.jpg" />
+    <Content Include="Agent\images\Shapla1.jpg" />
+    <Content Include="Agent\images\SingTel_logo.jpg" />
+    <Content Include="Agent\images\st3in1.gif" />
+    <Content Include="Agent\images\ste10.gif" />
+    <Content Include="Agent\images\ste15.gif" />
+    <Content Include="Agent\images\ste20.gif" />
+    <Content Include="Agent\images\ste28.gif" />
+    <Content Include="Agent\images\ste50.gif" />
+    <Content Include="Agent\images\stez10.gif" />
+    <Content Include="Agent\images\stez15.gif" />
+    <Content Include="Agent\images\stez20.gif" />
+    <Content Include="Agent\images\stez28.gif" />
+    <Content Include="Agent\images\stez5.gif" />
+    <Content Include="Agent\images\US1.jpg" />
+    <Content Include="Agent\images\US31.jpg" />
+    <Content Include="Agent\images\vietnam.jpg" />
+    <Content Include="Agent\images\yo18.gif" />
+    <Content Include="Agent\Agent_Login.aspx" />
+    <Content Include="Agent\Agent_Logout.aspx" />
+    <Content Include="Agent\ReloadAll.aspx" />
+    <Content Include="Agent\Agent_ReloadPIN.aspx" />
+    <Content Include="Agent\Agent_Reload.aspx" />
+    <Content Include="Agent\Agent_ReloadBangadesh.aspx" />
+    <Content Include="Agent\Agent_ReloadIndia.aspx" />
+    <Content Include="Agent\Agent_Reloadindo.aspx" />
+    <Content Include="Agent\Agent_ReportAgentSales.aspx" />
+    <Content Include="Agent\Agent_ReportAgentTopup.aspx" />
+    <Content Include="build\css\custom.css" />
+    <Content Include="build\css\custom.min.css" />
+    <Content Include="build\js\custom.js" />
+    <Content Include="build\js\custom.min.js" />
+    <Content Include="Contact.aspx" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Dealer\AgentBalance.aspx" />
+    <Content Include="Dealer\AgentInfo.aspx" />
+    <Content Include="Dealer\DealerTopupCard.aspx" />
+    <Content Include="Dealer\AgentTopup.aspx" />
+    <Content Include="Dealer\ChangePassword.aspx" />
+    <Content Include="Dealer\DNDetails.aspx" />
+    <Content Include="Dealer\DNDetails1.aspx" />
+    <Content Include="Dealer\EditAgentRebate.aspx" />
+    <Content Include="Dealer\EditDiscount.aspx" />
+    <Content Include="Dealer\images\loading.gif" />
+    <Content Include="Dealer\images\sh18.gif" />
+    <Content Include="Dealer\images\sh28.gif" />
+    <Content Include="Dealer\images\Thumbs.db" />
+    <Content Include="Dealer\Login.aspx" />
+    <Content Include="Dealer\Logout.aspx" />
+    <Content Include="Dealer\PrintReportAgentSales.aspx" />
+    <Content Include="Dealer\PrintReportAgentTopUp.aspx" />
+    <Content Include="Dealer\PrintReports.aspx" />
+    <Content Include="Dealer\RegisterAgent.aspx" />
+    <Content Include="Dealer\ReportAgentSales.aspx" />
+    <Content Include="Dealer\ReportAgentTopup.aspx" />
+    <Content Include="Dealer\ReportCommission.aspx" />
+    <Content Include="Dealer\Search.aspx" />
+    <Content Include="Dealer\Web.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Default.html" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Account\Web.config" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Master\Admin\admin.sitemap" />
+    <Content Include="Master\Admin\AdminChangePassword.aspx" />
+    <Content Include="Master\Admin\AgentTransfer.aspx" />
+    <Content Include="Master\Admin\AgentTopupCard.aspx" />
+    <Content Include="Master\Admin\RegisterRetailer.aspx" />
+    <Content Include="Master\Admin\RegisterSubmaster.aspx" />
+    <Content Include="Master\Admin\ReportAgentSalesSummary.aspx" />
+    <Content Include="Master\Admin\ReportAgentTopup.aspx.bak" />
+    <Content Include="Master\Admin\ReportAgentTopup.aspx.vb.bak" />
+    <Content Include="Agent\images\Thumbs.db" />
+    <Content Include="Agent\images\indo\Thumbs.db" />
+    <Content Include="Agent\Web.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Agent\WebRetailer.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Master\Admin\AgentBalance.aspx" />
+    <Content Include="Master\Admin\AgentInfo.aspx" />
+    <Content Include="Master\Admin\AgentMSISDN.aspx" />
+    <Content Include="Master\Admin\AgentTopup.aspx" />
+    <Content Include="Master\Admin\Broadcast.aspx" />
+    <Content Include="Master\Admin\CustomerList.aspx" />
+    <Content Include="Master\Admin\CustomerSearch.aspx" />
+    <Content Include="Master\Admin\DealerCommission.aspx" />
+    <Content Include="Master\Admin\DNReceived.aspx" />
+    <Content Include="Master\Admin\EditAgentRebate.aspx" />
+    <Content Include="Master\Admin\EditDiscount.aspx" />
+    <Content Include="Master\Admin\EditMenuID.aspx" />
+    <Content Include="Master\Admin\EditRebate.aspx" />
+    <Content Include="Master\Admin\FailSMS.aspx" />
+    <Content Include="Master\Admin\main.aspx" />
+    <Content Include="Master\Admin\MonthlyActivation.aspx" />
+    <Content Include="Master\Admin\MTPending.aspx" />
+    <Content Include="Master\Admin\MTSuccess.aspx" />
+    <Content Include="Master\Admin\NoDN.aspx" />
+    <Content Include="Master\Admin\Pending.aspx" />
+    <Content Include="Master\Admin\PostRobinSettings.aspx" />
+    <Content Include="Master\Admin\PrintReportAgentSales.aspx" />
+    <Content Include="Master\Admin\PrintReportAgentSalesAll.aspx" />
+    <Content Include="Master\Admin\PrintReportAgentTopUp.aspx" />
+    <Content Include="Master\Admin\PrintReportAgentTopUpAll.aspx" />
+    <Content Include="Master\Admin\PrintReports.aspx" />
+    <Content Include="Master\Admin\PrintReportSIMCardBalance.aspx" />
+    <Content Include="Master\Admin\ProcessorSetting.aspx" />
+    <Content Include="Master\Admin\ProductInfo.aspx" />
+    <Content Include="Master\Admin\PurchaseTx.aspx" />
+    <Content Include="Master\Admin\Redo.aspx" />
+    <Content Include="Master\Admin\Refund.aspx" />
+    <Content Include="Master\Admin\RegisterAgent.aspx" />
+    <Content Include="Master\Admin\Reload.aspx" />
+    <Content Include="Master\Admin\ReloadPIN.txt" />
+    <Content Include="Master\Admin\ReloadPinManage.aspx" />
+    <Content Include="Master\Admin\ReportAgentMonthly.aspx" />
+    <Content Include="Master\Admin\ReportAgentSales.aspx" />
+    <Content Include="Master\Admin\ReportAgentTopup.aspx" />
+    <Content Include="Master\Admin\ReportDealerSales.aspx" />
+    <Content Include="Master\Admin\ReportSales.aspx" />
+    <Content Include="Master\Admin\ReportSalesByDenoSummary.aspx" />
+    <Content Include="Master\Admin\ReportSalesByDeno.aspx" />
+    <Content Include="Master\Admin\ReportSalesByTelco.aspx" />
+    <Content Include="Master\Admin\ReportSalesByTelcoSIM.aspx" />
+    <Content Include="Master\Admin\ReportSalesMonthly.aspx" />
+    <Content Include="Master\Admin\ReportTopAgent.aspx" />
+    <Content Include="Master\Admin\SimCard.aspx" />
+    <Content Include="Master\Admin\SimPending.aspx" />
+    <Content Include="Master\Admin\tables_dynamic.html" />
+    <Content Include="Master\Admin\TdID.aspx" />
+    <Content Include="Master\Admin\TelcoFailReload.aspx" />
+    <Content Include="Master\Admin\TelcoMessages.aspx" />
+    <Content Include="Master\Admin\TelcoSettings.aspx" />
+    <Content Include="Master\Admin\UpkeepByPhone.aspx" />
+    <Content Include="Master\Admin\UpkeepTxAdd.aspx" />
+    <Content Include="Master\Admin\UpkeepTxEdit.aspx" />
+    <Content Include="Master\Admin\Upkeep.aspx" />
+    <Content Include="Master\Admin\Upkeep2.aspx" />
+    <Content Include="Master\Admin\UpkeepTx.aspx" />
+    <Content Include="Master\Admin\UpkeepTx2.aspx" />
+    <Content Include="Master\Admin\UploadReloadPin.aspx" />
+    <Content Include="Master\Admin\UploadTopUp.aspx" />
+    <Content Include="Master\Admin\Upkeep3.aspx" />
+    <Content Include="Master\DNDetails.aspx" />
+    <Content Include="Master\DNDetails1.aspx" />
+    <Content Include="Master\DNReceived.aspx" />
+    <Content Include="Master\Home.aspx" />
+    <Content Include="Master\ICDetails.aspx" />
+    <Content Include="Master\Login.aspx" />
+    <Content Include="Master\Logout.aspx" />
+    <Content Include="Master\Search.aspx" />
+    <Content Include="Master\Tbl1.aspx" />
+    <Content Include="Master\Tbl2.aspx" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Submaster\Admin\Submaster_ChangePassword.aspx" />
+    <Content Include="Submaster\Admin\Submaster_AgentTopupCard.aspx" />
+    <Content Include="Submaster\Admin\Submaster_AgentBalance.aspx" />
+    <Content Include="Submaster\Admin\Submaster_AgentInfo.aspx" />
+    <Content Include="Submaster\Admin\Submaster_AgentMSISDN.aspx" />
+    <Content Include="Submaster\Admin\Submaster_AgentTopup.aspx" />
+    <Content Include="Submaster\Admin\Submaster_Broadcast.aspx" />
+    <Content Include="Submaster\Admin\Submaster_CustomerList.aspx" />
+    <Content Include="Submaster\Admin\Submaster_CustomerSearch.aspx" />
+    <Content Include="Submaster\Admin\Submaster_DealerCommission.aspx" />
+    <Content Include="Submaster\Admin\Submaster_DNReceived.aspx" />
+    <Content Include="Submaster\Admin\Submaster_EditAgentRebate.aspx" />
+    <Content Include="Submaster\Admin\Submaster_EditDiscount.aspx" />
+    <Content Include="Submaster\Admin\Submaster_EditMenuID.aspx" />
+    <Content Include="Submaster\Admin\Submaster_EditRebate.aspx" />
+    <Content Include="Submaster\Admin\Submaster_FailSMS.aspx" />
+    <Content Include="Submaster\Admin\Submaster_main.aspx" />
+    <Content Include="Submaster\Admin\Submaster_MonthlyActivation.aspx" />
+    <Content Include="Submaster\Admin\Submaster_MTPending.aspx" />
+    <Content Include="Submaster\Admin\Submaster_MTSuccess.aspx" />
+    <Content Include="Submaster\Admin\Submaster_NoDN.aspx" />
+    <Content Include="Submaster\Admin\Submaster_Pending.aspx" />
+    <Content Include="Submaster\Admin\Submaster_PostRobinSettings.aspx" />
+    <Content Include="Submaster\Admin\Submaster_PrintReportAgentSales.aspx" />
+    <Content Include="Submaster\Admin\Submaster_PrintReportAgentSalesAll.aspx" />
+    <Content Include="Submaster\Admin\Submaster_PrintReportAgentTopUp.aspx" />
+    <Content Include="Submaster\Admin\Submaster_PrintReportAgentTopUpAll.aspx" />
+    <Content Include="Submaster\Admin\Submaster_PrintReports.aspx" />
+    <Content Include="Submaster\Admin\Submaster_PrintReportSIMCardBalance.aspx" />
+    <Content Include="Submaster\Admin\Submaster_ProcessorSetting.aspx" />
+    <Content Include="Submaster\Admin\Submaster_ProductInfo.aspx" />
+    <Content Include="Submaster\Admin\Submaster_PurchaseTx.aspx" />
+    <Content Include="Submaster\Admin\Submaster_Redo.aspx" />
+    <Content Include="Submaster\Admin\Submaster_Refund.aspx" />
+    <Content Include="Submaster\Admin\Submaster_RegisterAgent.aspx" />
+    <Content Include="Submaster\Admin\Submaster_Reload.aspx" />
+    <Content Include="Submaster\Admin\ReloadPIN.txt" />
+    <Content Include="Submaster\Admin\Submaster_ReloadPinManage.aspx" />
+    <Content Include="Submaster\Admin\Submaster_Report.aspx" />
+    <Content Include="Submaster\Admin\Submaster_ReportAgentMonthly.aspx" />
+    <Content Include="Submaster\Admin\Submaster_ReportAgentSales.aspx" />
+    <Content Include="Submaster\Admin\Submaster_ReportAgentTopup.aspx" />
+    <Content Include="Submaster\Admin\Submaster_ReportDealerSales.aspx" />
+    <Content Include="Submaster\Admin\Submaster_ReportSales.aspx" />
+    <Content Include="Submaster\Admin\Submaster_ReportSalesByDeno.aspx" />
+    <Content Include="Submaster\Admin\Submaster_ReportSalesByTelco.aspx" />
+    <Content Include="Submaster\Admin\Submaster_ReportSalesByTelcoSIM.aspx" />
+    <Content Include="Submaster\Admin\Submaster_ReportSalesMonthly.aspx" />
+    <Content Include="Submaster\Admin\Submaster_ReportTopAgent.aspx" />
+    <Content Include="Submaster\Admin\Submaster_SimCard.aspx" />
+    <Content Include="Submaster\Admin\Submaster_SimPending.aspx" />
+    <Content Include="Submaster\Admin\Submaster_TdID.aspx" />
+    <Content Include="Submaster\Admin\Submaster_TelcoFailReload.aspx" />
+    <Content Include="Submaster\Admin\Submaster_TelcoMessages.aspx" />
+    <Content Include="Submaster\Admin\Submaster_TelcoSettings.aspx" />
+    <Content Include="Submaster\Admin\Submaster_UploadReloadPin.aspx" />
+    <Content Include="Submaster\Admin\Submaster_UploadTopUp.aspx" />
+    <Content Include="Submaster\Submaster_DNDetails.aspx" />
+    <Content Include="Submaster\Submaster_DNDetails1.aspx" />
+    <Content Include="Submaster\Submaster_DNReceived.aspx" />
+    <Content Include="Submaster\Submaster_Home.aspx" />
+    <Content Include="Submaster\Submaster_ICDetails.aspx" />
+    <Content Include="Submaster\Submaster_Login.aspx" />
+    <Content Include="Submaster\Submaster_Logout.aspx" />
+    <Content Include="Submaster\Submaster_Search.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Bundle.config" />
+    <Content Include="packages.config" />
+    <None Include="Project_Readme.html" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Submaster\Web.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Submaster\Admin\admin.sitemap" />
+    <Content Include="Submaster\Admin\ReportAgentTopup.aspx.bak" />
+    <Content Include="Submaster\Admin\ReportAgentTopup.aspx.vb.bak" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="Master\Web.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\AddPhoneNumber.aspx.designer.vb">
+      <DependentUpon>AddPhoneNumber.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\AddPhoneNumber.aspx.vb">
+      <DependentUpon>AddPhoneNumber.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Confirm.aspx.designer.vb">
+      <DependentUpon>Confirm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Confirm.aspx.vb">
+      <DependentUpon>Confirm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Forgot.aspx.designer.vb">
+      <DependentUpon>Forgot.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Forgot.aspx.vb">
+      <DependentUpon>Forgot.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Lockout.aspx.designer.vb">
+      <DependentUpon>Lockout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Lockout.aspx.vb">
+      <DependentUpon>Lockout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Manage.aspx.designer.vb">
+      <DependentUpon>Manage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Manage.aspx.vb">
+      <DependentUpon>Manage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ManageLogins.aspx.designer.vb">
+      <DependentUpon>ManageLogins.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ManageLogins.aspx.vb">
+      <DependentUpon>ManageLogins.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ManagePassword.aspx.designer.vb">
+      <DependentUpon>ManagePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ManagePassword.aspx.vb">
+      <DependentUpon>ManagePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\OpenAuthProviders.ascx.designer.vb">
+      <DependentUpon>OpenAuthProviders.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\OpenAuthProviders.ascx.vb">
+      <DependentUpon>OpenAuthProviders.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\RegisterExternalLogin.aspx.designer.vb">
+      <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\RegisterExternalLogin.aspx.vb">
+      <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ResetPassword.aspx.designer.vb">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ResetPassword.aspx.vb">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ResetPasswordConfirmation.aspx.designer.vb">
+      <DependentUpon>ResetPasswordConfirmation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ResetPasswordConfirmation.aspx.vb">
+      <DependentUpon>ResetPasswordConfirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\TwoFactorAuthenticationSignIn.aspx.designer.vb">
+      <DependentUpon>TwoFactorAuthenticationSignIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\TwoFactorAuthenticationSignIn.aspx.vb">
+      <DependentUpon>TwoFactorAuthenticationSignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\VerifyPhoneNumber.aspx.designer.vb">
+      <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\VerifyPhoneNumber.aspx.vb">
+      <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\Agent_AgentInfo.aspx.designer.vb">
+      <DependentUpon>Agent_AgentInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\Agent_AgentInfo.aspx.vb">
+      <DependentUpon>Agent_AgentInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\encryptpassword.aspx.designer.vb">
+      <DependentUpon>encryptpassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\encryptpassword.aspx.vb">
+      <DependentUpon>encryptpassword.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Agent\Retailer_Logout.aspx.designer.vb">
+      <DependentUpon>Retailer_Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\Retailer_Logout.aspx.vb">
+      <DependentUpon>Retailer_Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\Retailer_Login.aspx.designer.vb">
+      <DependentUpon>Retailer_Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\Retailer_Login.aspx.vb">
+      <DependentUpon>Retailer_Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\Agent_Reload3Data.aspx.designer.vb">
+      <DependentUpon>Agent_Reload3Data.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\Agent_Reload3Data.aspx.vb">
+      <DependentUpon>Agent_Reload3Data.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\Agent_Reload4Data.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\Agent_Reload4Data.aspx.designer.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\Agent_Reload_Receive.aspx.designer.vb">
+      <DependentUpon>Agent_Reload_Receive.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\Agent_Reload_Receive.aspx.vb">
+      <DependentUpon>Agent_Reload_Receive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\Agent_Reload4.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\Agent_Reload4.aspx.designer.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\Agent_Reload3.aspx.designer.vb">
+      <DependentUpon>Agent_Reload3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\Agent_Reload3.aspx.vb">
+      <DependentUpon>Agent_Reload3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\Agent_Reload2.aspx.designer.vb">
+      <DependentUpon>Agent_Reload2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\Agent_Reload2.aspx.vb">
+      <DependentUpon>Agent_Reload2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\Agent_Search.aspx.designer.vb">
+      <DependentUpon>Agent_Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\Agent_Search.aspx.vb">
+      <DependentUpon>Agent_Search.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Agent\Agent_ChangePassword.aspx.designer.vb">
+      <DependentUpon>Agent_ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\Agent_ChangePassword.aspx.vb">
+      <DependentUpon>Agent_ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\DNDetails.aspx.designer.vb">
+      <DependentUpon>DNDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\DNDetails.aspx.vb">
+      <DependentUpon>DNDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\DNReceived.aspx.designer.vb">
+      <DependentUpon>DNReceived.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\DNReceived.aspx.vb">
+      <DependentUpon>DNReceived.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\EditAgentRebate.aspx.designer.vb">
+      <DependentUpon>EditAgentRebate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\EditAgentRebate.aspx.vb">
+      <DependentUpon>EditAgentRebate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\EditDiscount.aspx.designer.vb">
+      <DependentUpon>EditDiscount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\EditDiscount.aspx.vb">
+      <DependentUpon>EditDiscount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\RetailerHome.aspx.designer.vb">
+      <DependentUpon>RetailerHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\RetailerHome.aspx.vb">
+      <DependentUpon>RetailerHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\Home.aspx.designer.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\Home.aspx.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\Agent_Login.aspx.designer.vb">
+      <DependentUpon>Agent_Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\Agent_Login.aspx.vb">
+      <DependentUpon>Agent_Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\Agent_Logout.aspx.designer.vb">
+      <DependentUpon>Agent_Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\Agent_Logout.aspx.vb">
+      <DependentUpon>Agent_Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\ReloadAll.aspx.designer.vb">
+      <DependentUpon>ReloadAll.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\ReloadAll.aspx.vb">
+      <DependentUpon>ReloadAll.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\Agent_ReloadPIN.aspx.designer.vb">
+      <DependentUpon>Agent_ReloadPIN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\Agent_ReloadPIN.aspx.vb">
+      <DependentUpon>Agent_ReloadPIN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\Agent_Reload.aspx.designer.vb">
+      <DependentUpon>Agent_Reload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\Agent_Reload.aspx.vb">
+      <DependentUpon>Agent_Reload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\Agent_ReloadBangadesh.aspx.designer.vb">
+      <DependentUpon>Agent_ReloadBangadesh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\Agent_ReloadBangadesh.aspx.vb">
+      <DependentUpon>Agent_ReloadBangadesh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\Agent_ReloadIndia.aspx.designer.vb">
+      <DependentUpon>Agent_ReloadIndia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\Agent_ReloadIndia.aspx.vb">
+      <DependentUpon>Agent_ReloadIndia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\Agent_Reloadindo.aspx.designer.vb">
+      <DependentUpon>Agent_Reloadindo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\Agent_Reloadindo.aspx.vb">
+      <DependentUpon>Agent_Reloadindo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\Agent_ReportAgentSales.aspx.designer.vb">
+      <DependentUpon>Agent_ReportAgentSales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\Agent_ReportAgentSales.aspx.vb">
+      <DependentUpon>Agent_ReportAgentSales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agent\Agent_ReportAgentTopup.aspx.designer.vb">
+      <DependentUpon>Agent_ReportAgentTopup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent\Agent_ReportAgentTopup.aspx.vb">
+      <DependentUpon>Agent_ReportAgentTopup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Start\BundleConfig.vb" />
+    <Compile Include="App_Start\IdentityConfig.vb" />
+    <Compile Include="App_Start\RouteConfig.vb" />
+    <Compile Include="About.aspx.designer.vb">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About.aspx.vb">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="App_Start\Startup.Auth.vb" />
+    <Compile Include="Contact.aspx.designer.vb">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.vb">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Dealer\AgentBalance.aspx.designer.vb">
+      <DependentUpon>AgentBalance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dealer\AgentBalance.aspx.vb">
+      <DependentUpon>AgentBalance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dealer\AgentInfo.aspx.designer.vb">
+      <DependentUpon>AgentInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dealer\AgentInfo.aspx.vb">
+      <DependentUpon>AgentInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dealer\DealerTopupCard.aspx.designer.vb">
+      <DependentUpon>DealerTopupCard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dealer\DealerTopupCard.aspx.vb">
+      <DependentUpon>DealerTopupCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dealer\AgentTopup.aspx.designer.vb">
+      <DependentUpon>AgentTopup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dealer\AgentTopup.aspx.vb">
+      <DependentUpon>AgentTopup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dealer\App_Code\Common.vb" />
+    <Compile Include="Dealer\ChangePassword.aspx.designer.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dealer\ChangePassword.aspx.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dealer\DNDetails.aspx.designer.vb">
+      <DependentUpon>DNDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dealer\DNDetails.aspx.vb">
+      <DependentUpon>DNDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dealer\DNDetails1.aspx.designer.vb">
+      <DependentUpon>DNDetails1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dealer\DNDetails1.aspx.vb">
+      <DependentUpon>DNDetails1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dealer\EditAgentRebate.aspx.designer.vb">
+      <DependentUpon>EditAgentRebate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dealer\EditAgentRebate.aspx.vb">
+      <DependentUpon>EditAgentRebate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dealer\EditDiscount.aspx.designer.vb">
+      <DependentUpon>EditDiscount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dealer\EditDiscount.aspx.vb">
+      <DependentUpon>EditDiscount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dealer\Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dealer\Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dealer\Logout.aspx.designer.vb">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dealer\Logout.aspx.vb">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dealer\PrintReportAgentSales.aspx.designer.vb">
+      <DependentUpon>PrintReportAgentSales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dealer\PrintReportAgentSales.aspx.vb">
+      <DependentUpon>PrintReportAgentSales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dealer\PrintReportAgentTopUp.aspx.designer.vb">
+      <DependentUpon>PrintReportAgentTopUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dealer\PrintReportAgentTopUp.aspx.vb">
+      <DependentUpon>PrintReportAgentTopUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dealer\PrintReports.aspx.designer.vb">
+      <DependentUpon>PrintReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dealer\PrintReports.aspx.vb">
+      <DependentUpon>PrintReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dealer\RegisterAgent.aspx.designer.vb">
+      <DependentUpon>RegisterAgent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dealer\RegisterAgent.aspx.vb">
+      <DependentUpon>RegisterAgent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dealer\ReportAgentSales.aspx.designer.vb">
+      <DependentUpon>ReportAgentSales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dealer\ReportAgentSales.aspx.vb">
+      <DependentUpon>ReportAgentSales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dealer\ReportAgentTopup.aspx.designer.vb">
+      <DependentUpon>ReportAgentTopup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dealer\ReportAgentTopup.aspx.vb">
+      <DependentUpon>ReportAgentTopup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dealer\ReportCommission.aspx.designer.vb">
+      <DependentUpon>ReportCommission.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dealer\ReportCommission.aspx.vb">
+      <DependentUpon>ReportCommission.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dealer\Search.aspx.designer.vb">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dealer\Search.aspx.vb">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\AdminChangePassword.aspx.designer.vb">
+      <DependentUpon>AdminChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\AdminChangePassword.aspx.vb">
+      <DependentUpon>AdminChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\AgentBalance.aspx.designer.vb">
+      <DependentUpon>AgentBalance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\AgentBalance.aspx.vb">
+      <DependentUpon>AgentBalance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\AgentInfo.aspx.designer.vb">
+      <DependentUpon>AgentInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\AgentInfo.aspx.vb">
+      <DependentUpon>AgentInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\AgentMSISDN.aspx.designer.vb">
+      <DependentUpon>AgentMSISDN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\AgentMSISDN.aspx.vb">
+      <DependentUpon>AgentMSISDN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\AgentTransfer.aspx.designer.vb">
+      <DependentUpon>AgentTransfer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\AgentTransfer.aspx.vb">
+      <DependentUpon>AgentTransfer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\AgentTopupCard.aspx.designer.vb">
+      <DependentUpon>AgentTopupCard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\AgentTopupCard.aspx.vb">
+      <DependentUpon>AgentTopupCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\AgentTopup.aspx.designer.vb">
+      <DependentUpon>AgentTopup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\AgentTopup.aspx.vb">
+      <DependentUpon>AgentTopup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\Broadcast.aspx.designer.vb">
+      <DependentUpon>Broadcast.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\Broadcast.aspx.vb">
+      <DependentUpon>Broadcast.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\CustomerList.aspx.designer.vb">
+      <DependentUpon>CustomerList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\CustomerList.aspx.vb">
+      <DependentUpon>CustomerList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\CustomerSearch.aspx.designer.vb">
+      <DependentUpon>CustomerSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\CustomerSearch.aspx.vb">
+      <DependentUpon>CustomerSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\DealerCommission.aspx.designer.vb">
+      <DependentUpon>DealerCommission.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\DealerCommission.aspx.vb">
+      <DependentUpon>DealerCommission.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\DNReceived.aspx.vb">
+      <DependentUpon>DNReceived.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\EditAgentRebate.aspx.designer.vb">
+      <DependentUpon>EditAgentRebate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\EditAgentRebate.aspx.vb">
+      <DependentUpon>EditAgentRebate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\EditDiscount.aspx.designer.vb">
+      <DependentUpon>EditDiscount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\EditDiscount.aspx.vb">
+      <DependentUpon>EditDiscount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\EditMenuID.aspx.designer.vb">
+      <DependentUpon>EditMenuID.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\EditMenuID.aspx.vb">
+      <DependentUpon>EditMenuID.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\EditRebate.aspx.designer.vb">
+      <DependentUpon>EditRebate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\EditRebate.aspx.vb">
+      <DependentUpon>EditRebate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\FailSMS.aspx.designer.vb">
+      <DependentUpon>FailSMS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\FailSMS.aspx.vb">
+      <DependentUpon>FailSMS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\main.aspx.vb">
+      <DependentUpon>main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\MonthlyActivation.aspx.designer.vb">
+      <DependentUpon>MonthlyActivation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\MonthlyActivation.aspx.vb">
+      <DependentUpon>MonthlyActivation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\MTPending.aspx.designer.vb">
+      <DependentUpon>MTPending.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\MTPending.aspx.vb">
+      <DependentUpon>MTPending.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\MTSuccess.aspx.designer.vb">
+      <DependentUpon>MTSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\MTSuccess.aspx.vb">
+      <DependentUpon>MTSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\NoDN.aspx.designer.vb">
+      <DependentUpon>NoDN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\NoDN.aspx.vb">
+      <DependentUpon>NoDN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\Pending.aspx.designer.vb">
+      <DependentUpon>Pending.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\Pending.aspx.vb">
+      <DependentUpon>Pending.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\PostRobinSettings.aspx.designer.vb">
+      <DependentUpon>PostRobinSettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\PostRobinSettings.aspx.vb">
+      <DependentUpon>PostRobinSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\PrintReportAgentSales.aspx.designer.vb">
+      <DependentUpon>PrintReportAgentSales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\PrintReportAgentSales.aspx.vb">
+      <DependentUpon>PrintReportAgentSales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\PrintReportAgentSalesAll.aspx.designer.vb">
+      <DependentUpon>PrintReportAgentSalesAll.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\PrintReportAgentSalesAll.aspx.vb">
+      <DependentUpon>PrintReportAgentSalesAll.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\PrintReportAgentTopUp.aspx.designer.vb">
+      <DependentUpon>PrintReportAgentTopUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\PrintReportAgentTopUp.aspx.vb">
+      <DependentUpon>PrintReportAgentTopUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\PrintReportAgentTopUpAll.aspx.designer.vb">
+      <DependentUpon>PrintReportAgentTopUpAll.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\PrintReportAgentTopUpAll.aspx.vb">
+      <DependentUpon>PrintReportAgentTopUpAll.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\PrintReports.aspx.designer.vb">
+      <DependentUpon>PrintReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\PrintReports.aspx.vb">
+      <DependentUpon>PrintReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\PrintReportSIMCardBalance.aspx.designer.vb">
+      <DependentUpon>PrintReportSIMCardBalance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\PrintReportSIMCardBalance.aspx.vb">
+      <DependentUpon>PrintReportSIMCardBalance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\ProcessorSetting.aspx.designer.vb">
+      <DependentUpon>ProcessorSetting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\ProcessorSetting.aspx.vb">
+      <DependentUpon>ProcessorSetting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\ProductInfo.aspx.designer.vb">
+      <DependentUpon>ProductInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\ProductInfo.aspx.vb">
+      <DependentUpon>ProductInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\PurchaseTx.aspx.vb">
+      <DependentUpon>PurchaseTx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\Redo.aspx.designer.vb">
+      <DependentUpon>Redo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\Redo.aspx.vb">
+      <DependentUpon>Redo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\Refund.aspx.designer.vb">
+      <DependentUpon>Refund.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\Refund.aspx.vb">
+      <DependentUpon>Refund.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\RegisterRetailer.aspx.designer.vb">
+      <DependentUpon>RegisterRetailer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\RegisterRetailer.aspx.vb">
+      <DependentUpon>RegisterRetailer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\RegisterSubmaster.aspx.designer.vb">
+      <DependentUpon>RegisterSubmaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\RegisterSubmaster.aspx.vb">
+      <DependentUpon>RegisterSubmaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\RegisterAgent.aspx.designer.vb">
+      <DependentUpon>RegisterAgent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\RegisterAgent.aspx.vb">
+      <DependentUpon>RegisterAgent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\Reload.aspx.designer.vb">
+      <DependentUpon>Reload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\Reload.aspx.vb">
+      <DependentUpon>Reload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\ReloadPinManage.aspx.designer.vb">
+      <DependentUpon>ReloadPinManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\ReloadPinManage.aspx.vb">
+      <DependentUpon>ReloadPinManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\ReportAgentMonthly.aspx.designer.vb">
+      <DependentUpon>ReportAgentMonthly.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\ReportAgentMonthly.aspx.vb">
+      <DependentUpon>ReportAgentMonthly.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\ReportAgentSalesSummary.aspx.designer.vb">
+      <DependentUpon>ReportAgentSalesSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\ReportAgentSalesSummary.aspx.vb">
+      <DependentUpon>ReportAgentSalesSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\ReportAgentSales.aspx.designer.vb">
+      <DependentUpon>ReportAgentSales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\ReportAgentSales.aspx.vb">
+      <DependentUpon>ReportAgentSales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\ReportAgentTopup.aspx.designer.vb">
+      <DependentUpon>ReportAgentTopup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\ReportAgentTopup.aspx.vb">
+      <DependentUpon>ReportAgentTopup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\ReportDealerSales.aspx.designer.vb">
+      <DependentUpon>ReportDealerSales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\ReportDealerSales.aspx.vb">
+      <DependentUpon>ReportDealerSales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\ReportSales.aspx.designer.vb">
+      <DependentUpon>ReportSales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\ReportSales.aspx.vb">
+      <DependentUpon>ReportSales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\ReportSalesByDenoSummary.aspx.designer.vb">
+      <DependentUpon>ReportSalesByDenoSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\ReportSalesByDenoSummary.aspx.vb">
+      <DependentUpon>ReportSalesByDenoSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\ReportSalesByDeno.aspx.designer.vb">
+      <DependentUpon>ReportSalesByDeno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\ReportSalesByDeno.aspx.vb">
+      <DependentUpon>ReportSalesByDeno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\ReportSalesByTelco.aspx.designer.vb">
+      <DependentUpon>ReportSalesByTelco.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\ReportSalesByTelco.aspx.vb">
+      <DependentUpon>ReportSalesByTelco.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\ReportSalesByTelcoSIM.aspx.designer.vb">
+      <DependentUpon>ReportSalesByTelcoSIM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\ReportSalesByTelcoSIM.aspx.vb">
+      <DependentUpon>ReportSalesByTelcoSIM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\ReportSalesMonthly.aspx.designer.vb">
+      <DependentUpon>ReportSalesMonthly.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\ReportSalesMonthly.aspx.vb">
+      <DependentUpon>ReportSalesMonthly.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\ReportTopAgent.aspx.designer.vb">
+      <DependentUpon>ReportTopAgent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\ReportTopAgent.aspx.vb">
+      <DependentUpon>ReportTopAgent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\SimCard.aspx.designer.vb">
+      <DependentUpon>SimCard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\SimCard.aspx.vb">
+      <DependentUpon>SimCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\SimPending.aspx.designer.vb">
+      <DependentUpon>SimPending.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\SimPending.aspx.vb">
+      <DependentUpon>SimPending.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\TdID.aspx.designer.vb">
+      <DependentUpon>TdID.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\TdID.aspx.vb">
+      <DependentUpon>TdID.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\TelcoFailReload.aspx.designer.vb">
+      <DependentUpon>TelcoFailReload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\TelcoFailReload.aspx.vb">
+      <DependentUpon>TelcoFailReload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\TelcoMessages.aspx.designer.vb">
+      <DependentUpon>TelcoMessages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\TelcoMessages.aspx.vb">
+      <DependentUpon>TelcoMessages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\TelcoSettings.aspx.designer.vb">
+      <DependentUpon>TelcoSettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\TelcoSettings.aspx.vb">
+      <DependentUpon>TelcoSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\UpkeepByPhone.aspx.designer.vb">
+      <DependentUpon>UpkeepByPhone.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\UpkeepByPhone.aspx.vb">
+      <DependentUpon>UpkeepByPhone.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\UpkeepTxAdd.aspx.designer.vb">
+      <DependentUpon>UpkeepTxAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\UpkeepTxAdd.aspx.vb">
+      <DependentUpon>UpkeepTxAdd.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\UpkeepTxEdit.aspx.designer.vb">
+      <DependentUpon>UpkeepTxEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\UpkeepTxEdit.aspx.vb">
+      <DependentUpon>UpkeepTxEdit.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\Upkeep.aspx.designer.vb">
+      <DependentUpon>Upkeep.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\Upkeep.aspx.vb">
+      <DependentUpon>Upkeep.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\Upkeep2.aspx.designer.vb">
+      <DependentUpon>Upkeep2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\Upkeep2.aspx.vb">
+      <DependentUpon>Upkeep2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\UpkeepTx.aspx.designer.vb">
+      <DependentUpon>UpkeepTx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\UpkeepTx.aspx.vb">
+      <DependentUpon>UpkeepTx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\UpkeepTx2.aspx.designer.vb">
+      <DependentUpon>UpkeepTx2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\UpkeepTx2.aspx.vb">
+      <DependentUpon>UpkeepTx2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\UploadReloadPin.aspx.designer.vb">
+      <DependentUpon>UploadReloadPin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\UploadReloadPin.aspx.vb">
+      <DependentUpon>UploadReloadPin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\UploadTopUp.aspx.designer.vb">
+      <DependentUpon>UploadTopUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\UploadTopUp.aspx.vb">
+      <DependentUpon>UploadTopUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Admin\Upkeep3.aspx.designer.vb">
+      <DependentUpon>Upkeep3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Admin\Upkeep3.aspx.vb">
+      <DependentUpon>Upkeep3.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Master\App_Code\Common.vb" />
+    <Compile Include="Master\DNDetails.aspx.designer.vb">
+      <DependentUpon>DNDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\DNDetails.aspx.vb">
+      <DependentUpon>DNDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\DNDetails1.aspx.designer.vb">
+      <DependentUpon>DNDetails1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\DNDetails1.aspx.vb">
+      <DependentUpon>DNDetails1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\DNReceived.aspx.designer.vb">
+      <DependentUpon>DNReceived.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\DNReceived.aspx.vb">
+      <DependentUpon>DNReceived.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Home.aspx.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\ICDetails.aspx.vb">
+      <DependentUpon>ICDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Logout.aspx.designer.vb">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Logout.aspx.vb">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Search.aspx.designer.vb">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Search.aspx.vb">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Tbl1.aspx.designer.vb">
+      <DependentUpon>Tbl1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Tbl1.aspx.vb">
+      <DependentUpon>Tbl1.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Master\Tbl2.aspx.designer.vb">
+      <DependentUpon>Tbl2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Tbl2.aspx.vb">
+      <DependentUpon>Tbl2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Models\IdentityModels.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Site.Master.designer.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Startup.vb" />
+    <Compile Include="Submaster\Admin\Submaster_ChangePassword.aspx.designer.vb">
+      <DependentUpon>Submaster_ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ChangePassword.aspx.vb">
+      <DependentUpon>Submaster_ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_AgentTopupCard.aspx.designer.vb">
+      <DependentUpon>Submaster_AgentTopupCard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_AgentTopupCard.aspx.vb">
+      <DependentUpon>Submaster_AgentTopupCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_AgentBalance.aspx.designer.vb">
+      <DependentUpon>Submaster_AgentBalance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_AgentBalance.aspx.vb">
+      <DependentUpon>Submaster_AgentBalance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_AgentInfo.aspx.designer.vb">
+      <DependentUpon>Submaster_AgentInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_AgentInfo.aspx.vb">
+      <DependentUpon>Submaster_AgentInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_AgentMSISDN.aspx.designer.vb">
+      <DependentUpon>Submaster_AgentMSISDN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_AgentMSISDN.aspx.vb">
+      <DependentUpon>Submaster_AgentMSISDN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_AgentTopup.aspx.designer.vb">
+      <DependentUpon>Submaster_AgentTopup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_AgentTopup.aspx.vb">
+      <DependentUpon>Submaster_AgentTopup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_Broadcast.aspx.designer.vb">
+      <DependentUpon>Submaster_Broadcast.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_Broadcast.aspx.vb">
+      <DependentUpon>Submaster_Broadcast.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_CustomerList.aspx.designer.vb">
+      <DependentUpon>Submaster_CustomerList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_CustomerList.aspx.vb">
+      <DependentUpon>Submaster_CustomerList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_CustomerSearch.aspx.designer.vb">
+      <DependentUpon>Submaster_CustomerSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_CustomerSearch.aspx.vb">
+      <DependentUpon>Submaster_CustomerSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_DealerCommission.aspx.designer.vb">
+      <DependentUpon>Submaster_DealerCommission.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_DealerCommission.aspx.vb">
+      <DependentUpon>Submaster_DealerCommission.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_DNReceived.aspx.vb">
+      <DependentUpon>Submaster_DNReceived.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_EditAgentRebate.aspx.designer.vb">
+      <DependentUpon>Submaster_EditAgentRebate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_EditAgentRebate.aspx.vb">
+      <DependentUpon>Submaster_EditAgentRebate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_EditDiscount.aspx.designer.vb">
+      <DependentUpon>Submaster_EditDiscount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_EditDiscount.aspx.vb">
+      <DependentUpon>Submaster_EditDiscount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_EditMenuID.aspx.designer.vb">
+      <DependentUpon>Submaster_EditMenuID.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_EditMenuID.aspx.vb">
+      <DependentUpon>Submaster_EditMenuID.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_EditRebate.aspx.designer.vb">
+      <DependentUpon>Submaster_EditRebate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_EditRebate.aspx.vb">
+      <DependentUpon>Submaster_EditRebate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_FailSMS.aspx.designer.vb">
+      <DependentUpon>Submaster_FailSMS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_FailSMS.aspx.vb">
+      <DependentUpon>Submaster_FailSMS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_main.aspx.vb">
+      <DependentUpon>Submaster_main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_MonthlyActivation.aspx.designer.vb">
+      <DependentUpon>Submaster_MonthlyActivation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_MonthlyActivation.aspx.vb">
+      <DependentUpon>Submaster_MonthlyActivation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_MTPending.aspx.designer.vb">
+      <DependentUpon>Submaster_MTPending.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_MTPending.aspx.vb">
+      <DependentUpon>Submaster_MTPending.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_MTSuccess.aspx.designer.vb">
+      <DependentUpon>Submaster_MTSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_MTSuccess.aspx.vb">
+      <DependentUpon>Submaster_MTSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_NoDN.aspx.designer.vb">
+      <DependentUpon>Submaster_NoDN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_NoDN.aspx.vb">
+      <DependentUpon>Submaster_NoDN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_Pending.aspx.designer.vb">
+      <DependentUpon>Submaster_Pending.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_Pending.aspx.vb">
+      <DependentUpon>Submaster_Pending.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_PostRobinSettings.aspx.designer.vb">
+      <DependentUpon>Submaster_PostRobinSettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_PostRobinSettings.aspx.vb">
+      <DependentUpon>Submaster_PostRobinSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_PrintReportAgentSales.aspx.designer.vb">
+      <DependentUpon>Submaster_PrintReportAgentSales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_PrintReportAgentSales.aspx.vb">
+      <DependentUpon>Submaster_PrintReportAgentSales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_PrintReportAgentSalesAll.aspx.designer.vb">
+      <DependentUpon>Submaster_PrintReportAgentSalesAll.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_PrintReportAgentSalesAll.aspx.vb">
+      <DependentUpon>Submaster_PrintReportAgentSalesAll.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_PrintReportAgentTopUp.aspx.designer.vb">
+      <DependentUpon>Submaster_PrintReportAgentTopUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_PrintReportAgentTopUp.aspx.vb">
+      <DependentUpon>Submaster_PrintReportAgentTopUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_PrintReportAgentTopUpAll.aspx.designer.vb">
+      <DependentUpon>Submaster_PrintReportAgentTopUpAll.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_PrintReportAgentTopUpAll.aspx.vb">
+      <DependentUpon>Submaster_PrintReportAgentTopUpAll.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_PrintReports.aspx.designer.vb">
+      <DependentUpon>Submaster_PrintReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_PrintReports.aspx.vb">
+      <DependentUpon>Submaster_PrintReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_PrintReportSIMCardBalance.aspx.designer.vb">
+      <DependentUpon>Submaster_PrintReportSIMCardBalance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_PrintReportSIMCardBalance.aspx.vb">
+      <DependentUpon>Submaster_PrintReportSIMCardBalance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ProcessorSetting.aspx.designer.vb">
+      <DependentUpon>Submaster_ProcessorSetting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ProcessorSetting.aspx.vb">
+      <DependentUpon>Submaster_ProcessorSetting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ProductInfo.aspx.designer.vb">
+      <DependentUpon>Submaster_ProductInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ProductInfo.aspx.vb">
+      <DependentUpon>Submaster_ProductInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_PurchaseTx.aspx.vb">
+      <DependentUpon>Submaster_PurchaseTx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_Redo.aspx.designer.vb">
+      <DependentUpon>Submaster_Redo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_Redo.aspx.vb">
+      <DependentUpon>Submaster_Redo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_Refund.aspx.designer.vb">
+      <DependentUpon>Submaster_Refund.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_Refund.aspx.vb">
+      <DependentUpon>Submaster_Refund.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_RegisterAgent.aspx.designer.vb">
+      <DependentUpon>Submaster_RegisterAgent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_RegisterAgent.aspx.vb">
+      <DependentUpon>Submaster_RegisterAgent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_Reload.aspx.designer.vb">
+      <DependentUpon>Submaster_Reload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_Reload.aspx.vb">
+      <DependentUpon>Submaster_Reload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ReloadPinManage.aspx.designer.vb">
+      <DependentUpon>Submaster_ReloadPinManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ReloadPinManage.aspx.vb">
+      <DependentUpon>Submaster_ReloadPinManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_Report.aspx.vb">
+      <DependentUpon>Submaster_Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ReportAgentMonthly.aspx.designer.vb">
+      <DependentUpon>Submaster_ReportAgentMonthly.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ReportAgentMonthly.aspx.vb">
+      <DependentUpon>Submaster_ReportAgentMonthly.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ReportAgentSales.aspx.designer.vb">
+      <DependentUpon>Submaster_ReportAgentSales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ReportAgentSales.aspx.vb">
+      <DependentUpon>Submaster_ReportAgentSales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ReportAgentTopup.aspx.designer.vb">
+      <DependentUpon>Submaster_ReportAgentTopup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ReportAgentTopup.aspx.vb">
+      <DependentUpon>Submaster_ReportAgentTopup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ReportDealerSales.aspx.designer.vb">
+      <DependentUpon>Submaster_ReportDealerSales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ReportDealerSales.aspx.vb">
+      <DependentUpon>Submaster_ReportDealerSales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ReportSales.aspx.designer.vb">
+      <DependentUpon>Submaster_ReportSales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ReportSales.aspx.vb">
+      <DependentUpon>Submaster_ReportSales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ReportSalesByDeno.aspx.designer.vb">
+      <DependentUpon>Submaster_ReportSalesByDeno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ReportSalesByDeno.aspx.vb">
+      <DependentUpon>Submaster_ReportSalesByDeno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ReportSalesByTelco.aspx.designer.vb">
+      <DependentUpon>Submaster_ReportSalesByTelco.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ReportSalesByTelco.aspx.vb">
+      <DependentUpon>Submaster_ReportSalesByTelco.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ReportSalesByTelcoSIM.aspx.designer.vb">
+      <DependentUpon>Submaster_ReportSalesByTelcoSIM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ReportSalesByTelcoSIM.aspx.vb">
+      <DependentUpon>Submaster_ReportSalesByTelcoSIM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ReportSalesMonthly.aspx.designer.vb">
+      <DependentUpon>Submaster_ReportSalesMonthly.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ReportSalesMonthly.aspx.vb">
+      <DependentUpon>Submaster_ReportSalesMonthly.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ReportTopAgent.aspx.designer.vb">
+      <DependentUpon>Submaster_ReportTopAgent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_ReportTopAgent.aspx.vb">
+      <DependentUpon>Submaster_ReportTopAgent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_SimCard.aspx.designer.vb">
+      <DependentUpon>Submaster_SimCard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_SimCard.aspx.vb">
+      <DependentUpon>Submaster_SimCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_SimPending.aspx.designer.vb">
+      <DependentUpon>Submaster_SimPending.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_SimPending.aspx.vb">
+      <DependentUpon>Submaster_SimPending.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_TdID.aspx.designer.vb">
+      <DependentUpon>Submaster_TdID.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_TdID.aspx.vb">
+      <DependentUpon>Submaster_TdID.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_TelcoFailReload.aspx.designer.vb">
+      <DependentUpon>Submaster_TelcoFailReload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_TelcoFailReload.aspx.vb">
+      <DependentUpon>Submaster_TelcoFailReload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_TelcoMessages.aspx.designer.vb">
+      <DependentUpon>Submaster_TelcoMessages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_TelcoMessages.aspx.vb">
+      <DependentUpon>Submaster_TelcoMessages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_TelcoSettings.aspx.designer.vb">
+      <DependentUpon>Submaster_TelcoSettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_TelcoSettings.aspx.vb">
+      <DependentUpon>Submaster_TelcoSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_UploadReloadPin.aspx.designer.vb">
+      <DependentUpon>Submaster_UploadReloadPin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_UploadReloadPin.aspx.vb">
+      <DependentUpon>Submaster_UploadReloadPin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_UploadTopUp.aspx.designer.vb">
+      <DependentUpon>Submaster_UploadTopUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Admin\Submaster_UploadTopUp.aspx.vb">
+      <DependentUpon>Submaster_UploadTopUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Submaster_DNDetails.aspx.designer.vb">
+      <DependentUpon>Submaster_DNDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Submaster_DNDetails.aspx.vb">
+      <DependentUpon>Submaster_DNDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Submaster_DNDetails1.aspx.designer.vb">
+      <DependentUpon>Submaster_DNDetails1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Submaster_DNDetails1.aspx.vb">
+      <DependentUpon>Submaster_DNDetails1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Submaster_DNReceived.aspx.designer.vb">
+      <DependentUpon>Submaster_DNReceived.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Submaster_DNReceived.aspx.vb">
+      <DependentUpon>Submaster_DNReceived.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Submaster_Home.aspx.vb">
+      <DependentUpon>Submaster_Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Submaster_ICDetails.aspx.vb">
+      <DependentUpon>Submaster_ICDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Submaster_Login.aspx.designer.vb">
+      <DependentUpon>Submaster_Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Submaster_Login.aspx.vb">
+      <DependentUpon>Submaster_Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Submaster_Logout.aspx.designer.vb">
+      <DependentUpon>Submaster_Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Submaster_Logout.aspx.vb">
+      <DependentUpon>Submaster_Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Submaster\Submaster_Search.aspx.designer.vb">
+      <DependentUpon>Submaster_Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Submaster\Submaster_Search.aspx.vb">
+      <DependentUpon>Submaster_Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Submaster\App_code\" />
+    <Folder Include="Theme\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>62568</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:62568/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

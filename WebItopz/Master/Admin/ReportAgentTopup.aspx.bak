@@ -1,0 +1,158 @@
+<%@ Page Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="false" CodeBehind="ReportAgentTopup.aspx.vb" Inherits="WebItopz.Admin_ReportAgentTopup" title="ReportAgentTopup" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <br />
+    <table style="margin: 10px">
+        <tr>
+            <td style="width: 69px; text-align: right">
+            </td>
+            <td colspan="3">
+                <span style="text-decoration: underline"><strong>Agent TopUp History</strong></span></td>
+        </tr>
+        <tr>
+            <td style="width: 69px; text-align: right;">
+                Day</td>
+            <td style="width: 21px; text-align: center;">
+                <strong>:</strong></td>
+            <td style="width: 100px">
+                <asp:DropDownList ID="DDLDay" runat="server">
+                    <asp:ListItem>01</asp:ListItem>
+                    <asp:ListItem>02</asp:ListItem>
+                    <asp:ListItem>03</asp:ListItem>
+                    <asp:ListItem>04</asp:ListItem>
+                    <asp:ListItem>05</asp:ListItem>
+                    <asp:ListItem>06</asp:ListItem>
+                    <asp:ListItem>07</asp:ListItem>
+                    <asp:ListItem>08</asp:ListItem>
+                    <asp:ListItem>09</asp:ListItem>
+                    <asp:ListItem>10</asp:ListItem>
+                    <asp:ListItem>11</asp:ListItem>
+                    <asp:ListItem>12</asp:ListItem>
+                    <asp:ListItem>13</asp:ListItem>
+                    <asp:ListItem>14</asp:ListItem>
+                    <asp:ListItem>15</asp:ListItem>
+                    <asp:ListItem>16</asp:ListItem>
+                    <asp:ListItem>17</asp:ListItem>
+                    <asp:ListItem>18</asp:ListItem>
+                    <asp:ListItem>19</asp:ListItem>
+                    <asp:ListItem>20</asp:ListItem>
+                    <asp:ListItem>21</asp:ListItem>
+                    <asp:ListItem>22</asp:ListItem>
+                    <asp:ListItem>23</asp:ListItem>
+                    <asp:ListItem>24</asp:ListItem>
+                    <asp:ListItem>25</asp:ListItem>
+                    <asp:ListItem>26</asp:ListItem>
+                    <asp:ListItem>27</asp:ListItem>
+                    <asp:ListItem>28</asp:ListItem>
+                    <asp:ListItem>29</asp:ListItem>
+                    <asp:ListItem>30</asp:ListItem>
+                    <asp:ListItem>31</asp:ListItem>
+                </asp:DropDownList></td>
+            <td style="width: 100px">
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 69px; text-align: right;">
+                Month</td>
+            <td style="width: 21px; text-align: center;">
+                <strong>:</strong></td>
+            <td style="width: 100px">
+                <asp:DropDownList ID="DDLMonth" runat="server">
+                    <asp:ListItem>01</asp:ListItem>
+                    <asp:ListItem>02</asp:ListItem>
+                    <asp:ListItem>03</asp:ListItem>
+                    <asp:ListItem>04</asp:ListItem>
+                    <asp:ListItem>05</asp:ListItem>
+                    <asp:ListItem>06</asp:ListItem>
+                    <asp:ListItem>07</asp:ListItem>
+                    <asp:ListItem>08</asp:ListItem>
+                    <asp:ListItem>09</asp:ListItem>
+                    <asp:ListItem>10</asp:ListItem>
+                    <asp:ListItem>11</asp:ListItem>
+                    <asp:ListItem>12</asp:ListItem>
+                </asp:DropDownList></td>
+            <td style="width: 100px">
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 69px; text-align: right;">
+                Year</td>
+            <td style="width: 21px; text-align: center;">
+                <strong>:</strong></td>
+            <td style="width: 100px">
+                <asp:DropDownList ID="DDLYear" runat="server">
+                </asp:DropDownList></td>
+            <td style="width: 100px">
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 69px">
+            </td>
+            <td style="width: 21px">
+            </td>
+            <td style="width: 100px">
+                <asp:Button ID="Button1" runat="server" Text="Generate" /></td>
+            <td style="width: 100px">
+            </td>
+        </tr>
+    </table>
+    <table style="margin: 10px">
+        <tr>
+            <td style="width: 133px" valign="top">
+    <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AutoGenerateColumns="False"
+        BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px"
+        CellPadding="4" DataSourceID="SqlDataSource1" GridLines="Vertical" style="margin: 10px" PageSize="30" ForeColor="Black">
+        <FooterStyle BackColor="#CCCC99" />
+        <Columns>
+            <asp:BoundField DataField="Date" HeaderText="Date" ReadOnly="True" SortExpression="Date" />
+            <asp:BoundField DataField="Amount" HeaderText="Amount" ReadOnly="True" SortExpression="Amount" />
+            <asp:BoundField DataField="AgentID" HeaderText="AgentID" SortExpression="AgentID" />
+            <asp:BoundField DataField="Name" HeaderText="Name" SortExpression="Name" />
+        </Columns>
+        <RowStyle BackColor="#F7F7DE" />
+        <SelectedRowStyle BackColor="#CE5D5A" Font-Bold="True" ForeColor="White" />
+        <PagerStyle BackColor="#F7F7DE" ForeColor="Black" HorizontalAlign="Left" />
+        <HeaderStyle BackColor="#404040" Font-Bold="True" ForeColor="White" Font-Names="Arial" Font-Size="Small" />
+        <AlternatingRowStyle BackColor="White" />
+        <EmptyDataTemplate>
+            No records found
+        </EmptyDataTemplate>
+    </asp:GridView>
+    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:RichTechConnectionString %>"
+        SelectCommand="SELECT CONVERT (varchar(10), t.CreatedTS, 111) AS Date, SUM(t.Amount) AS Amount, t.AgentID, i.Name FROM AgentTopupTx AS t INNER JOIN AgentInfo AS i ON t.AgentID = i.AgentID WHERE (DATEPART(mm, t.CreatedTS) = @month) AND (DATEPART(yyyy, t.CreatedTS) = @year) AND (DAY(t.CreatedTS) = @Day) AND (t.Type = 'TOPUP' OR T.TYPE='RECEIVED') GROUP BY CONVERT (varchar(10), t.CreatedTS, 111), t.AgentID, i.Name ORDER BY CONVERT (INT, t.AgentID)">
+        <SelectParameters>
+            <asp:ControlParameter ControlID="DDLMonth" Name="month" PropertyName="SelectedValue" />
+            <asp:ControlParameter ControlID="DDLYear" Name="year" PropertyName="SelectedValue" />
+            <asp:ControlParameter ControlID="DDLDay" Name="Day" PropertyName="SelectedValue" />
+        </SelectParameters>
+    </asp:SqlDataSource>
+            </td>
+            <td style="width: 100px" valign="top">
+                <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="False" CellPadding="4"
+                    DataSourceID="SqlDataSource2" ForeColor="Black" GridLines="Vertical" Style="margin: 10px" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px">
+                    <FooterStyle BackColor="#CCCC99" />
+                    <Columns>
+                        <asp:BoundField DataField="Month" HeaderText="Month" ReadOnly="True" SortExpression="Month" />
+                        <asp:BoundField DataField="Amount" HeaderText="Amount" ReadOnly="True" SortExpression="Amount" />
+                    </Columns>
+                    <RowStyle BackColor="#F7F7DE" />
+                    <SelectedRowStyle BackColor="#CE5D5A" Font-Bold="True" ForeColor="White" />
+                    <PagerStyle BackColor="#F7F7DE" ForeColor="Black" HorizontalAlign="Right" />
+                    <HeaderStyle BackColor="#404040" Font-Bold="True" ForeColor="White" Font-Names="Arial" Font-Size="Small" />
+                    <AlternatingRowStyle BackColor="White" />
+                </asp:GridView>
+                <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:RichTechConnectionString %>"
+                    SelectCommand="SELECT Month(CreatedTS) as Month, Sum(Amount) as Amount FROM [AgentTopupTx]&#13;&#10;where year(CreatedTS) = @year&#13;&#10;group by month(CreatedTS) order by month">
+                    <SelectParameters>
+                        <asp:ControlParameter ControlID="DDLYear" Name="year" PropertyName="SelectedValue" />
+                    </SelectParameters>
+                </asp:SqlDataSource>
+            </td>
+  
+        </tr>
+
+    </table>
+    <br />
+    <br />
+    &nbsp;
+</asp:Content>
+
